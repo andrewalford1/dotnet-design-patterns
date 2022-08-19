@@ -19,7 +19,7 @@ namespace Services
             if (animal == Animal.Null)
             {
                 return new StringBuilder()
-                    .Append($"We have no records for {animalName}.")
+                    .Append($"We have no records for {animalName}. ")
                     .Append("Impossible. Perhaps the archives are incomplete.")
                     .ToString();                
             }
